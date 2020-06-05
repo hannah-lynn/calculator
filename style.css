@@ -127,7 +127,7 @@ button {
   }
 
   .reset {
-    margin-right: 50%;
+    margin-right: 51%;
     display: block;
   }
 
@@ -141,7 +141,7 @@ button {
   #del {
     width: 4em;
     height: 2.2em;
-    margin-left: 5 4px;
+    margin-left: 10px;
     padding: 4px 4px;
     background: rgb(236, 155, 155);
   }
