@@ -118,15 +118,14 @@ button {
     background: rgb(193, 193, 193);
     border: 2px solid black;
     width: 18.9em;
-    height: 2.5em;
-    margin-bottom: 0.5em;
-    text-align: justify;
-    text-align-last: right;
-    overflow: hidden;
+    height: 3em;
+    margin-bottom: 1em;
   }
 
   .result {
-    font-size: 2.1em;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5em;
   }
 
   .reset {
