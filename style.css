@@ -21,6 +21,13 @@ body {
   );
 }
 
+#title {
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
+}
+
 .calc {
   display: inline-block;
   background: rgb(84, 171, 166);
@@ -90,4 +97,52 @@ button {
 
 #equals {
   background: rgb(132, 132, 222);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 10%;
+  }
+
+  .main-btns .btn {
+    width: 4em;
+    height: 4em;
+  }
+
+  button {
+    border-radius: 5px;
+    font-size: 1em;
+  }
+
+  .screen {
+    background: rgb(193, 193, 193);
+    border: 2px solid black;
+    width: 18.9em;
+    height: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .result {
+    font-size: 2.1em;
+  }
+
+  .reset {
+    margin-right: 50%;
+    display: block;
+  }
+
+  #rst {
+    width: 4em;
+    height: 2.2em;
+    padding: 4px 5px;
+    background: rgb(236, 155, 155);
+  }
+
+  #del {
+    width: 4em;
+    height: 2.2em;
+    margin-left: 5 4px;
+    padding: 4px 4px;
+    background: rgb(236, 155, 155);
+  }
 }
